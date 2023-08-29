@@ -1,4 +1,5 @@
 import { BsFillBookmarkFill } from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
@@ -7,27 +8,35 @@ const Navbar = () => {
                 <div className="nav-content">
 
                     <div className="nav-links">
-                            <ul>
-                                <li>
+                        <ul>
+                            <li>
+                                <Link to={"/automotive"}>
                                     <p>automotive</p>
-                                </li>
-                                <li>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={"/editorial"}>
                                     <p>editorial</p>
-                                </li>
-                                <li>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={"/street"}>
                                     <p>street</p>
-                                </li>
-                            </ul>
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
 
                     <div className="bookings-btn">
-                        <p>
-                            <div><BsFillBookmarkFill /></div>
-                            bookings
-                        </p>
+                        <Link to={"/bookings"}>
+                            <p>
+                                <div><BsFillBookmarkFill /></div>
+                                bookings
+                            </p>
+                        </Link>
                     </div>
 
-               </div>
+                </div>
             </nav>
         </>
     )

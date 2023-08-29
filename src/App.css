@@ -74,3 +74,8 @@ li p,
   height: 0.8rem;
   width: 0.8rem;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
