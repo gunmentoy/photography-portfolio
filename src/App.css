@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@200&family=Ubuntu:wght@300&display=swap');
 
 body {
@@ -6,73 +7,17 @@ body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background-color: #1A1A1A;
   color: #FFFF;
 }
 
-/* NAVBAR COMPONENT */
-nav {
-  margin: 0;
-  padding: 0;
-  min-height: 4rem;
-  min-width: 100%;
-  display: flex;
+* {
+  box-sizing: border-box;
 }
 
-.nav-content {
-  margin: 0 auto;
-  min-width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-links {
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.nav-links ul {
-  display: flex;
-  list-style: none;
-}
-
-ul {
-  margin: 0;
-  margin-block: 0;
-  margin-inline: 0;
-  padding-inline: 0;
-}
-
-li {
-  margin-right: 2.5rem;
-  display: flex;
-  align-items: center;
-}
-
-li p,
-.bookings-btn p {
-  letter-spacing: 0.5rem;
-  cursor: pointer;
-}
-
-.bookings-btn p {
-  background-color: #91122A;
-  border-radius: 1rem;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-}
-
-.bookings-btn p div {
-  margin-right: 0.8rem;
-  display: flex;
-  align-items: center;
-  height: 0.8rem;
-  width: 0.8rem;
+h1, h2, h3, p, a {
+  margin : 0;
+  font-size: inherit;
 }
 
 a {
